@@ -2,10 +2,7 @@
 
 # 👋 Hi, I'm Martin Njuguna  
 
-![Profile Views](https://komarev.com/ghpvc/?username=martin-njuguna&label=Profile%20Views&color=0e75b6&style=flat)  
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/martin-njuguna)  
-[![Email](https://img.shields.io/badge/Email-martin.njau%40live.com-red?style=flat&logo=gmail&logoColor=white)](mailto:martin.njau@live.com)  
-[![Portfolio](https://img.shields.io/badge/Portfolio-Coming%20Soon-ff9800?style=flat&logo=google-chrome&logoColor=white)](#)  
+![Profile Views](https://komarev.com/ghpvc/?username=megabreakage&label=Profile%20Views&color=0e75b6&style=flat) [![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/megabreakage) [![Email](https://img.shields.io/badge/Email-martin.njau%40live.com-red?style=flat&logo=gmail&logoColor=white)](mailto:martin.njau@live.com) [![Portfolio](https://img.shields.io/badge/Portfolio-Coming%20Soon-ff9800?style=flat&logo=google-chrome&logoColor=white)](#)  
 
 ---
 
@@ -17,15 +14,7 @@ I’m a **Senior Full-Stack Developer** with **10+ years of experience** in buil
 ---
 
 ## 🛠️ Tech Stack
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat&logo=php&logoColor=white)  
-![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=flat&logo=laravel&logoColor=white)  
-![Vue.js](https://img.shields.io/badge/Vue.js-42b883?style=flat&logo=vue.js&logoColor=white)  
-![MySQL](https://img.shields.io/badge/MySQL-005C84?style=flat&logo=mysql&logoColor=white)  
-![Redis](https://img.shields.io/badge/Redis-D9281A?style=flat&logo=redis&logoColor=white)  
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)  
-![Nginx](https://img.shields.io/badge/Nginx-009639?style=flat&logo=nginx&logoColor=white)  
-![DigitalOcean](https://img.shields.io/badge/DigitalOcean-0080FF?style=flat&logo=digitalocean&logoColor=white)  
-![Google Cloud](https://img.shields.io/badge/Google%20Cloud-4285F4?style=flat&logo=google-cloud&logoColor=white)  
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat&logo=php&logoColor=white) ![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=flat&logo=laravel&logoColor=white) ![Vue.js](https://img.shields.io/badge/Vue.js-42b883?style=flat&logo=vue.js&logoColor=white) ![MySQL](https://img.shields.io/badge/MySQL-005C84?style=flat&logo=mysql&logoColor=white) ![Redis](https://img.shields.io/badge/Redis-D9281A?style=flat&logo=redis&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white) ![Nginx](https://img.shields.io/badge/Nginx-009639?style=flat&logo=nginx&logoColor=white) ![DigitalOcean](https://img.shields.io/badge/DigitalOcean-0080FF?style=flat&logo=digitalocean&logoColor=white) ![Google Cloud](https://img.shields.io/badge/Google%20Cloud-4285F4?style=flat&logo=google-cloud&logoColor=white)  
 
 ---
 
@@ -38,15 +27,15 @@ I’m a **Senior Full-Stack Developer** with **10+ years of experience** in buil
 
 ## 📊 GitHub Stats
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=martin-njuguna&show_icons=true&theme=tokyonight&hide_border=true" height="180"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=martin-njuguna&layout=compact&theme=tokyonight&hide_border=true" height="180"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=megabreakage&show_icons=true&theme=tokyonight&hide_border=true" height="180"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=megabreakage&layout=compact&theme=tokyonight&hide_border=true" height="180"/>
 </p>
 
 ---
 
 ## 🔥 GitHub Streak
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=martin-njuguna&theme=tokyonight&hide_border=true" height="200"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=megabreakage&theme=tokyonight&hide_border=true" height="200"/>
 </p>
 
 ---
@@ -59,7 +48,7 @@ I’m a **Senior Full-Stack Developer** with **10+ years of experience** in buil
 ---
 
 ## 🌍 Connect With Me
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/martin-njuguna)  
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/megabreakage)  
 [![Email](https://img.shields.io/badge/Email-martin.njau%40live.com-red?style=flat&logo=gmail&logoColor=white)](mailto:martin.njau@live.com)  
 [![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=flat&logo=twitter&logoColor=white)](https://x.com/)  
 
