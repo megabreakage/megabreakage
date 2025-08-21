@@ -48,9 +48,7 @@ I’m a **Senior Full-Stack Developer** with **10+ years of experience** in buil
 ---
 
 ## 🌍 Connect With Me
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/megabreakage)  
-[![Email](https://img.shields.io/badge/Email-martin.njau%40live.com-red?style=flat&logo=gmail&logoColor=white)](mailto:martin.njau@live.com)  
-[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=flat&logo=twitter&logoColor=white)](https://x.com/)  
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/megabreakage) [![Email](https://img.shields.io/badge/Email-martin.njau%40live.com-red?style=flat&logo=gmail&logoColor=white)](mailto:martin.njau@live.com) [![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=flat&logo=twitter&logoColor=white)](https://x.com/)  
 
 ---
 
