@@ -48,15 +48,13 @@ I help teams deliver software that is:
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/megabreakage/megabreakage/output/snake-dark.svg" />
-    <img alt="Contribution Snake Animation" src="https://raw.githubusercontent.com/megabreakage/megabreakage/output/snake.svg" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/megabreakage/megabreakage/output/github-contribution-grid-snake-dark.svg" />
+    <img alt="Contribution Snake Animation" src="https://raw.githubusercontent.com/megabreakage/megabreakage/output/github-contribution-grid-snake.svg" />
   </picture>
 </p>
 
 <p align="center">
-  <a href="https://app.daily.dev/martinnjuguna">
-    <img src="https://api.daily.dev/devcards/v2/1q6KC1Bd0ayi0p6J8UQ.jpg?r=1nu" width="260" alt="Martin's Dev Card" />
-  </a>
+  <a href="https://daily.dev/martinnjuguna"><img src="https://api.daily.dev/devcards/v2/1q6KC1Bd0ayi0p63ZnfAp.png?type=wide&r=h3j" width="652" alt="Martin Njuguna's Dev Card"/></a>
 </p>
 
 <p align="center"><i>Open to senior engineering, platform, and product-focused opportunities.</i></p>
