@@ -48,8 +48,8 @@ I help teams deliver software that is:
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/megabreakage/megabreakage/output/github-contribution-grid-snake-dark.svg" />
-    <img alt="Contribution Snake Animation" src="https://raw.githubusercontent.com/megabreakage/megabreakage/output/github-contribution-grid-snake.svg" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/megabreakage/megabreakage/output/snake-dark.svg" />
+    <img alt="Contribution Snake Animation" src="https://raw.githubusercontent.com/megabreakage/megabreakage/output/snake.svg" />
   </picture>
 </p>
 
