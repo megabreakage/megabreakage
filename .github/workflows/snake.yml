@@ -1,32 +1,90 @@
-name: Generate Snake
+name: Generate Snake Contribution Graph
 
 on:
   schedule:
     - cron: "0 */12 * * *" # every 12 hours
   workflow_dispatch:
+  push:
+    branches:
+      - main
 
 permissions:
   contents: write
 
+concurrency:
+  group: snake-generation
+  cancel-in-progress: true
+
 jobs:
   generate:
+    name: Generate snake SVGs
     runs-on: ubuntu-latest
     timeout-minutes: 10
 
     steps:
-      - name: Generate snake animation
-        uses: Platane/snk@v3
+      - name: Checkout output branch
+        uses: actions/checkout@v4
+        with:
+          ref: output
+          fetch-depth: 0
+        continue-on-error: true
+
+      - name: Fallback checkout default branch if output does not exist yet
+        if: ${{ failure() }}
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Configure git identity
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Ensure output branch exists and switch to it
+        run: |
+          set -euo pipefail
+          if git show-ref --verify --quiet refs/heads/output; then
+            git switch output
+          elif git ls-remote --exit-code --heads origin output; then
+            git fetch origin output:output
+            git switch output
+          else
+            git switch --orphan output
+            git rm -rf . >/dev/null 2>&1 || true
+            touch .gitkeep
+            git add .gitkeep
+            git commit -m "chore: initialize output branch"
+            git push origin output
+          fi
+
+      - name: Generate snake files
+        uses: Platane/snk/svg-only@v3
         with:
           github_user_name: megabreakage
           outputs: |
-            dist/snake.svg
-            dist/snake-dark.svg?palette=github-dark
+            snake.svg
+            snake-dark.svg?palette=github-dark
 
-      - name: Push snake to output branch
-        uses: crazy-max/ghaction-github-pages@v4
-        with:
-          target_branch: output
-          build_dir: dist
-          keep_history: false
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Validate generated files exist
+        run: |
+          set -euo pipefail
+          test -s snake.svg
+          test -s snake-dark.svg
+
+      - name: Commit and push if changed
+        run: |
+          set -euo pipefail
+          git add snake.svg snake-dark.svg
+          if git diff --staged --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+          git commit -m "chore: regenerate contribution snake assets"
+          git push origin output
+
+      - name: Verify raw URLs are reachable
+        run: |
+          set -euo pipefail
+          curl -fsSL "https://raw.githubusercontent.com/megabreakage/megabreakage/output/snake.svg" >/dev/null
+          curl -fsSL "https://raw.githubusercontent.com/megabreakage/megabreakage/output/snake-dark.svg" >/dev/null
